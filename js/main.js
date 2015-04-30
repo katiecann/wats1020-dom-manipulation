@@ -18,8 +18,8 @@ $( document ).ready(function() {
 	//  Create a function to listen for clicks on the "login" button.
 	$('#login-form a').on('click', function(){	
 		$('#login-form').hide();	   							//  When a user clicks the "login" button, hide the login form elements on the page.
-			var userGreeting = 'Welcome,' + '' + userInfo.firstName + '' + userInfo.lastName; 
-			$('.user-Info').html(userGreeting).fadeIn();		//  Fill the user's first and last name into `div.user-info`.
+			var userGreeting = 'Welcome, ' + ' ' + userInfo.firstName + ' ' + userInfo.lastName; 
+			$('.user-info').html(userGreeting).fadeIn();		//  Fill the user's first and last name into `div.user-info`.
 	});
 	
 	//  Create a function to listen for clicks on all the "View Details" buttons
